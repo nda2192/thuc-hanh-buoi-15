@@ -10,17 +10,16 @@
 <body>
     <script>
 
-        let a = 1
+        let a = 0
         let b = 1
 
         do {
-            document.write(a + " ")
             fib = a + b
             a = b
             b = fib
             dieukien = a % 5
         } while (dieukien !== 0)
-
+        document.writeln("so dau tien trong day fib chia het cho 5 la " + a)
     </script>
 </body>
 
