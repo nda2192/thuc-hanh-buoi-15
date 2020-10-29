@@ -9,17 +9,19 @@
 
 <body>
     <script>
-
+        let x = parseInt(prompt("Nhap so thu tu gioi han cua day fibo"))
         let a = 0
         let b = 1
-
+        let count = 1
+        document.writeln("Day "+ x + " so fibo la"+"<br>")
         do {
             document.writeln(a + " ")
             fib = a + b
             a = b
             b = fib
-            
-        } while (dieukien !== 0)
+            count += 1
+        } while (count < x+2)
+        document.writeln("tong "+ x + " so fib dau tien = " + tong)
         
     </script>
 </body>
