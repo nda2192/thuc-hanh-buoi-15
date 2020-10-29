@@ -9,20 +9,22 @@
 
 <body>
     <script>
-        let x = parseInt(prompt("Nhap so thu tu gioi han cua day fibo"))
+        //tinh tong 20 so dau tien cua day fibo
         let a = 0
         let b = 1
         let count = 1
-        document.writeln("Day "+ x + " so fibo la"+"<br>")
         do {
             document.writeln(a + " ")
             fib = a + b
             a = b
             b = fib
             count += 1
-        } while (count < x+2)
-        document.writeln("tong "+ x + " so fib dau tien = " + tong)
-        
+        } while (count < 22)
+        // tim so thu 22 cua day fibo
+        tong = a -1
+        // cong thuc tinh tong cua n so fibo: tong = fibo[n+2]-1
+        document.write("<br>")
+        document.write("Tong 20 so  " + tong)
     </script>
 </body>
 
